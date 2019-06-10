@@ -9,9 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BShopperBrowseBooksActivity"></activity>
-        <activity android:name=".BShopperCreateAcctActivity" />
-        <activity android:name=".LogInActivity" />
+
+        <activity android:name=".BShopperShoppingCartActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity android:name=".BShopperViewDealActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".BShopperBrowseBooksActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".BShopperCreateAcctActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".LogInActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
